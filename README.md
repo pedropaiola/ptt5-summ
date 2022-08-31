@@ -42,7 +42,6 @@ Segundo Meirelles, o Banco Central do Brasil está sendo percebido como uma inst
 O presidente do Banco Central disse ainda que a crise política brasileira não foi um assunto de interesse prioritário dos investidores que encontrou no fim de semana.
 '''
 
-src_text = [text]
 inputs = tokenizer.encode(text, max_length=512, truncation=True, return_tensors='pt')
 summary_ids = model_pt.generate(inputs, max_length=256, min_length=32, num_beams=5, no_repeat_ngram_size=3, early_stopping=True)
 summary = tokenizer.decode(summary_ids[0])
