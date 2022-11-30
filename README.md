@@ -52,17 +52,17 @@ print(summary)
 
 # Citation
 
-  @InProceedings{ptt5summ_bracis,
-    author="Paiola, Pedro H.
-    and de Rosa, Gustavo H.
-    and Papa, Jo{\~a}o P.",
-    editor="Xavier-Junior, Jo{\~a}o Carlos
-    and Rios, Ricardo Ara{\'u}jo",
-    title="Deep Learning-Based Abstractive Summarization for Brazilian Portuguese Texts",
-    booktitle="BRACIS 2022: Intelligent Systems",
-    year="2022",
-    publisher="Springer International Publishing",
-    address="Cham",
-    pages="479--493",
-    isbn="978-3-031-21689-3"
-  }
+    @aInProceedings{ptt5summ_bracis,
+      author="Paiola, Pedro H.
+        and de Rosa, Gustavo H.
+        and Papa, Jo{\~a}o P.",
+      editor="Xavier-Junior, Jo{\~a}o Carlos
+        and Rios, Ricardo Ara{\'u}jo",
+      title="Deep Learning-Based Abstractive Summarization for Brazilian Portuguese Texts",
+      booktitle="BRACIS 2022: Intelligent Systems",
+      year="2022",
+      publisher="Springer International Publishing",
+      address="Cham",
+      pages="479--493",
+      isbn="978-3-031-21689-3"}
+  
